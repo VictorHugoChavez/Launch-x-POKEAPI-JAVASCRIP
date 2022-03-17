@@ -13,14 +13,16 @@ const fetchPokemon = () => {
         }).then((data) => {
             console.log(data);
             let pokeimg = data.sprites.front_default;
-            console.log(pokeimg)
             pokeImage(pokeimg)
         })
     }
     // es una consulta o peticion a un api
 
 fetchPokemon();
+
 const pokeImage = (url) => {
     const pokeImage = document.getElementById("pokeImg");
+    const name = document.getElementById("nombre_pokemon");
     pokeImage.src = url;
+    name.textContent = `N° ${data.id}`;
 }

@@ -1,0 +1,41 @@
+.pokedex {
+    background-image: url(../img/Group\ 3\ \(1\).svg);
+    background-repeat: no-repeat;
+    width: 67%;
+    height: 53em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.barra-va {
+    background-color: #A80809;
+}
+
+.ajuste-logo {
+    margin: auto;
+    height: 6.5em;
+}
+
+.poke-ajuste {
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: 5em;
+}
+
+.icons-ajuste {
+    margin-left: 34em;
+    padding-top: 1em;
+}
+
+.sepacion {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.ajuste-api {
+    padding-top: 24.7em;
+    padding-left: 3em;
+}
