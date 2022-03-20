@@ -26,7 +26,7 @@ footer {
 }
 
 .icons-ajuste {
-    margin-left: 34em;
+    margin-left: 38em;
     padding-top: 1em;
 }
 
@@ -38,4 +38,16 @@ footer {
 .ajuste-api {
     padding-top: 24.7em;
     padding-left: 3em;
+}
+
+.informacion {
+    margin-left: 9em;
+}
+
+.datos {
+    margin-top: 5em;
+}
+
+.informacion-pokemon {
+    margin-left: 6em;
 }
