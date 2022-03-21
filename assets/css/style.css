@@ -1,12 +1,5 @@
-.pokedex {
-    background-image: url(../img/Group\ 3\ \(1\).svg);
-    background-repeat: no-repeat;
-    width: 67%;
-    height: 53em;
-    margin: auto;
-    margin-top: 2em;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .barra-va {
     background-color: #A80809;
 }
@@ -23,6 +16,14 @@
 footer {
     width: 100%;
     height: 5em;
+}
+
+body {
+    background-color: #A80809;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.705);
 }
 
 .icons-ajuste {
@@ -50,4 +51,88 @@ footer {
 
 .informacion-pokemon {
     margin-left: 6em;
+}
+
+.fondo-pokemon {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/503/189/157/pokemon-video-games-pixel-art-pixels-wallpaper-preview.jpg);
+}
+
+.hp {
+    background-color: #006400;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.defense {
+    background-color: #073b4c;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.special-defense {
+    background-color: #14213d;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.attack {
+    background-color: #6a040f;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.special-attack {
+    background-color: #370617;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.speed {
+    background-color: #240046;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.valores {
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 1em;
+}
+
+.border1,
+.border2,
+.border3 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.texto-type {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.imagen {
+    font-family: 'Press Start 2P', cursive;
+    ;
 }
